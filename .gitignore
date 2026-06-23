@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+venv/
+.env
+.env.local
+.env.production
+
+# SMT / Build Artifacts
+*.z3
+*.smt2
+build/
+dist/
+
+# OS files
+.DS_Store
+keys/
