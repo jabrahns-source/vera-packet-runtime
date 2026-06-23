@@ -8,6 +8,16 @@ A deterministic, cryptographically hardened validation engine designed for high-
 * **Edge Security & Anti-Tamper:** Employs Ed25519 signatures to guarantee data origin integrity prior to ledger processing.
 * **Audit-Trail Readiness:** Emits structured, sequential JSONL packets featuring deterministic Merkle root anchors ready for immutable ingestion.
 
+## Pricing & Commercial Access
+**Honest, transparent tiers for SB 253 compliance**
+
+- **Free/Dev** — Local runtime, open core. Unlimited testing.
+- **Starter** — $49/mo or $499/yr. Hosted API (100k packets/mo), dashboard.
+- **Pro** — $299/mo or $2,999/yr. Unlimited, on-prem options, priority support.
+- **Enterprise** — Custom. Dedicated, SLAs, integrations. Contact for pilots.
+
+For production API access, deployment licensing, or automated compliance integrations supporting California SB 253 workflows, contact **Even The Odds Foundry**.
+
 ## Standard Verification Output
 
 ```text
@@ -42,7 +52,4 @@ curl -X POST http://localhost:8080/v1/validate \
   }'
 ```
 
-## Commercial Licensing & Enterprise Access
-This runtime core forms the data verification foundation for the **Kerna Ledger** framework.
- * For production API access, deployment licensing, or automated compliance integrations supporting California SB 253 workflows, contact **Even The Odds Foundry**.
- * **License:** Custom Commercial-Proprietary (See LICENSE for developer testing exceptions).
+See `/payment` for Stripe integration and licensing.
